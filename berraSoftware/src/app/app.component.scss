@@ -1,0 +1,32 @@
+.icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+.text-container {
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+.circles-conatiner {
+    @media (max-width: 600px) {
+        flex-direction: column;
+        .col-4 {
+            margin-top: 3rem;
+            width: 100%;
+        }
+    }
+}
