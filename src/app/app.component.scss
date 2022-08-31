@@ -1,8 +1,8 @@
 .icon {
     background-color: white;
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
     }
 }
 
-.circles-conatiner {
+.responsive-conatiner {
     @media (max-width: 600px) {
         flex-direction: column;
         .col-4 {
@@ -29,4 +29,13 @@
             width: 100%;
         }
     }
+}
+
+.icon:hover {
+    transform: rotateY(360deg);
+}
+
+.icon {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
