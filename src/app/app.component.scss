@@ -53,3 +53,10 @@
 .icon>i {
     margin-top: 3rem;
 }
+
+.list-group-middle {
+    @media (min-width: 600px) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
