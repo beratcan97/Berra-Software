@@ -9,12 +9,18 @@ const routes: Routes = [
   }, {
     path: "berra-software",
     component: AppComponent
-  } ,
-  {path: '**', component: AppComponent}
+  }, {
+    path: 'test',
+    component: AppComponent
+  }, {
+    path: '**',
+    component: AppComponent
+  }
 
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  // imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
