@@ -4,10 +4,10 @@ import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: AppComponent
   }, {
-    path: 'berra-software',
+    path: "berra-software",
     component: AppComponent
   }
 ];
