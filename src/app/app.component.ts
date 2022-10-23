@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'berraSoftware';
-  version: string = '0.1.1.1.1.1.1.1.1.1V';
+  version: string = '0.1.1.1.1.1.1.1.1.1.1V';
 }
 
 
