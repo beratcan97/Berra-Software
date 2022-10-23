@@ -1,3 +1,10 @@
+#Versions
+cd src
+cd app
+
+sed -i "s/V';/.1V';/g" app.component.ts
+
+#GH pages
 ng build --prod --output-path docs --base-href ./
 cd docs
 cp index.html 404.html
