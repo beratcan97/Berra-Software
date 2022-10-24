@@ -1,14 +1,15 @@
-#Versions
+#Versions updator
 cd src
 cd app
-
 sed -i "s/V';/.1V';/g" app.component.ts
 
 #GH pages
-ng build --prod --output-path docs --base-href ./
+ng build --output-path docs --base-href ./
+cd ..
+cd ..
 cd docs
 cp index.html 404.html
-echo ‘nyasidan.se’ >CNAME
+echo "nyasidan.se" >CNAME
 
 echo "------------------------------------"
 echo "--Docs ready press Enter to releas--"
