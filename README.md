@@ -1,5 +1,7 @@
 # For Developers
 
+$ https://google-map-generator.com/
+
 $ run sh script
 
 $ Custom domain in github settings
