@@ -60,3 +60,14 @@
         margin-right: 1rem;
     }
 }
+
+.scroll-in {
+    position: relative;
+    animation-name: fade-in;
+    animation-duration: 4s;
+      
+    @keyframes fade-in {
+        0%   {top:10rem;}
+        100% {top:0px;}
+    }
+}
