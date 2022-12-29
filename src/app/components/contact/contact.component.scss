@@ -7,6 +7,15 @@
 .center-text {
 	text-align: center
 }
+form {
+	width: 75vw;
+	@media (min-width: 400px) {
+		width: 85vw;
+	}
+	@media (min-width: 900px) {
+		width: 50vw;
+	}
+}
 form.contact {
 	display: flex;
 	flex-direction: column;
