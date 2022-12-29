@@ -8,6 +8,7 @@ import { SectionComponent } from './components/section/section.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { SpinnerInfoComponent } from './components/spinner-info/spinner-info.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     SectionComponent,
     ContactComponent,
+    SpinnerInfoComponent,
   ],
   imports: [
     BrowserModule,
