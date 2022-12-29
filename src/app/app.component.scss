@@ -27,3 +27,13 @@
         100% {top:0px;}
     }
 }
+
+.responsive-conatiner {
+    @media (max-width: 600px) {
+        flex-direction: column;
+        .col-4 {
+            margin-top: 3rem;
+            width: 100%;
+        }
+    }
+}
