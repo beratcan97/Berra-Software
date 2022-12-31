@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DinBilVerkstad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="https://www.pngitem.com/pimgs/m/599-5993173_transparent-mechanic-png-mechanic-icon-png-png-download.png">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">EXVerkstad.se</a>
+    <a href="#info" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Problem med bilen?</a>
+    <a href="#kontakt" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kontakt</a>
+    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#info" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Problem med bilen?</a>
+  <a href="#kontakt" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Kontakt</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_960_720.jpg" width="100%" height="700">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Stockholm</h3>
+      <p><b>Exempelvägen 12, 070XXXXXXX</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cdn.pixabay.com/photo/2018/09/20/22/23/auto-repair-3691963_960_720.jpg" width="100%" height="700">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Göteborg</h3>
+      <p><b>Exempelvägen 10, 070XXXXXXX</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cdn.pixabay.com/photo/2017/10/08/08/35/auto-mechanic-2829141_960_720.jpg" width="100%" height="700">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Malmö</h3>
+      <p><b>Exempelvägen 8, 070XXXXXXX</b></p>   
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class=" w3-light-grey">
+      <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="info">
+    <h2 class="w3-wide">Problem med bilen?</h2>
+    <p class="w3-opacity"><i>Vi finns här för dig!</i></p>
+    <div class="center">
+      <p class="w3-justify">Välkommen till DinBilVerkstad,</p>
+      <p class="w3-justify">vi erbjuder dig snabb service och korta väntetider!</p>
+      <p class="w3-justify">Vi hjälper dig med din bil oavsett märke.</p> 
+    </div>
+
+    
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p><b>Snabb service</b></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/4285/4285622.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:40%">
+      </div>
+      <div class="w3-third">
+        <p><b>Flexibla tider</b></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2646/2646177.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:40%">
+      </div>
+      <div class="w3-third">
+        <p><b>Certifierade</b></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/1/1700.png" class="w3-round" alt="Random Name" style="width:40%">
+      </div>
+    </div>
+  </div>
+  </div>
+  <style>
+    .center {
+      margin: auto;
+      width: 50%;
+    }
+  </style>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="kontakt">
+    <h2 class="w3-wide w3-center">Kontakta oss</h2>
+    <p class="w3-opacity w3-center"><i>Telefontider: 08:00 - 20:00</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Stockholm, SE<br>
+        <i class="fa fa-phone" style="width:30px"></i> Telefon: +46707XXXXXX<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Mail: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="380" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=stockholm&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
