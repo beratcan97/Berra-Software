@@ -1,19 +1,20 @@
 <app-section [bgColor]="'bg-secondary'">
-  <div class="d-flex justify-content-end">
-    <div>
-          <form action="mailto:berra_tech@hotmail.com" method="post" enctype="text/plain">
-      Namn:<br>
-      <input type="text" class="form-control" name="Namn" placeholder="t.ex. betalning">
+  <div class="d-flex justify-content-end my-4">
+    <div class="d-flex flex-column">
+      <h1>Kontakt</h1>
+      <p>Har du frågor eller vill komma i kontakt med oss, kan du enkelt göra det via formuläret nedan.</p>
+      <form action="mailto:berra_tech@hotmail.com" method="post" enctype="text/plain">
+        Namn:<br>
+        <input type="text" class="form-control" name="Namn" placeholder="t.ex. betalning">
 
         Meddelande:<br>
         <textarea class="form-control" type="text" name="Meddelande" size="50"></textarea>
         
-        <div class="d-flex">
+        <div class="d-flex mt-2">
           <button type="reset" class="btn btn-secondary" value="Reset">Avbryt</button>        
           <button type="submit" class="btn btn-primary" value="Send">Skicka</button>
         </div>
-    </form>
+      </form>
     </div>
-
   </div>
 </app-section>
