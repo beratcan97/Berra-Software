@@ -13,6 +13,7 @@ export class SpinnerInfoComponent implements OnInit {
   cirkel1Content: boolean = false;
   cirkel2Content: boolean = false;
   cirkel3Content: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -41,7 +42,6 @@ export class SpinnerInfoComponent implements OnInit {
       this.cirkel1Spinner = false;
       this.cirkel2Spinner = false;
       this.cirkel3Spinner = false;
-  }, 1000);
+    }, 1000);
   }
-
 }
